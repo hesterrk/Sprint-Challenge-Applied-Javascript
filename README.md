@@ -30,13 +30,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+-one big object that represents all of our HTML. It acts as a bridge between content and the browser. The code we see on the browser which is not the HTML in our editor that we write— means we can change it temporarily on the browser. It is a way of representing your content, structure and style. It is a language neutral API-
+
+
 2. What is an event?
+
+-Events are ways we users interact with the page (every user interaction) Events include: mouse(clicking,scrolling), keyboard activity(highlighting,copy and paste).
+
 
 3. What is an event listener?
 
+-Is a way to prove an event is happening on an element.
+-We attach ‘addEventListener’ method which attaches an event handler to the specified element
+-The event listener takes 2 arguments: 1st- event to listen for, 2nd- the cb to fire when that event is triggered. The cb function is known as the event handler. The event handler runs when we detect the event.
+
+
 4. Why would we convert a NodeList into an Array?
 
+So we can gain access to all array methods. 
+
+
 5. What is a component?
+
+
+-small, reusable bundle of functionality
+-not specific to JS
+-can be used to build elements sharing functionality and styling
+-building styles so they don’t rely on any other element on the page and don’t bleed over into another component
+
 
 ### Git Set up
 
