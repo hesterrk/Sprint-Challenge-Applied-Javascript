@@ -62,4 +62,3 @@ function Card(){
 
 Card()
 
-cardsContainer.appendChild(Card);
