@@ -18,11 +18,17 @@
 //
 // Create a card for each of the articles and add the card to the DOM.
 
-axios.get('https://lambda-times-backend.herokuapp.com/articles');
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
+// .then((info => {
+    
+//     console.log(info.data.articles)
+
+//     for () {
+        
+//     }
 
 
-
-//do something here with data from article
+// }));
 
 function Card(){
     
@@ -55,3 +61,5 @@ function Card(){
 }
 
 Card()
+
+cardsContainer.appendChild(Card);
