@@ -22,6 +22,7 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 .then(response => {
 
 const articles = Object.keys(response.data.articles);
+
 for (let i = 0; i < articles.length; i++) {
         response.data.articles[articles[i]].forEach(element => {
          new Card(element);  
@@ -29,16 +30,14 @@ for (let i = 0; i < articles.length; i++) {
 }
 
 
-
-
-
-
-
 console.log(articles);
-        console.log(response.data);
+console.log(response.data);
 })
 
+//new keyword creates a new instances of our component- can have as manny as we want. It is a clone. We declare the component once and can use the keyword as many times as we want. 
 
+//.data will always be in response, we have to use it to access the data
+//http status codes are messages telling us what issue is
 
 function Card(obj){
     
