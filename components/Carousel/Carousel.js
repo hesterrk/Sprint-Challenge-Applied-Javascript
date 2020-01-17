@@ -6,7 +6,6 @@
     5. Think of how you would animate this component. Make the cards slide in and out, or fade. It's up to you!
     6. Have fun!
 */
-
 /* HTML:
   <div class="carousel">
     <div class="left-button"> < </div>
