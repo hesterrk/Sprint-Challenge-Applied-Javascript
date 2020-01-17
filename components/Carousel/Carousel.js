@@ -48,6 +48,9 @@ buttonright.classList.add('right-button');
 
 // buttonleft.textContent = '\u25BA';
 // buttonright.textContent = '\u25BC';
+img1.setAttribute('src', "./assets/carousel/mountains.jpeg");
+img2.setAttribute("src", "./assets/carousel/computer.jpeg");
+
 
 //add img.src to content 
 
